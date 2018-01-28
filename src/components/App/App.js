@@ -27,6 +27,10 @@ class App extends Component {
     this.setState({ districtRepository, schoolData: districtRepository.data });
   }
 
+  resetDistrict = (selectedDistrict) => {
+    this.getDistrictRepository(selectedDistrict);
+  }
+
   handleSearch = (searchTerm) => {
     let searchResults = this.state.districtRepository
       .findAllMatches(searchTerm);
@@ -79,6 +83,7 @@ class App extends Component {
         <Control 
           handleSearch={ this.handleSearch }
           searchError={ this.state.searchError }
+          resetDistrict={ this.resetDistrict }
         />
         <CompareContainer
           handleCompareCards={ this.handleCompareCards }

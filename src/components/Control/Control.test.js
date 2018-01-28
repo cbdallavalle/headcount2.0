@@ -5,6 +5,8 @@ import Control from './Control';
 it('should match the snapshot', () => {
   const renderedComponent = shallow(<Control
     handleSearch={()=>{}} 
-    searchError={false} />);
+    searchError={false}
+    resetDistrict={()=>{}}
+  />);
   expect(renderedComponent).toMatchSnapshot();
 });

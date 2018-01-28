@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import Dropdown from '../Dropdown/Dropdown';
 import './Control.css';
 
 const Control = (props) => {
@@ -7,6 +8,7 @@ const Control = (props) => {
   
   return (
     <header className="Control">
+      <Dropdown resetDistrict={ props.resetDistrict } />
       <div className="input-cont">
         <i 
           className="fa fa-search search-icon" 
@@ -29,7 +31,8 @@ const Control = (props) => {
 const { func, bool } = PropTypes;
 Control.propTypes = {
   searchError: bool.isRequired,
-  handleSearch: func.isRequired
+  handleSearch: func.isRequired,
+  resetDistrict: func.isRequired
 };
 
 export default Control;
