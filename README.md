@@ -37,3 +37,11 @@ The tests are a compilation of unit and integration tests to simulate the method
 ## Contributors
 
 Alex Bonder and Casey Dallavalle are the project developers.
+
+## Project layout
+
+<img width="1329" alt="screen shot 2018-01-29 at 9 51 16 am" src="https://user-images.githubusercontent.com/28467245/35522655-2c4a719a-04da-11e8-9766-7b576b599150.png">
+
+<img width="1332" alt="screen shot 2018-01-29 at 9 51 28 am" src="https://user-images.githubusercontent.com/28467245/35522656-2c5f19e2-04da-11e8-98fc-777c80c58833.png">
+
+<img width="1327" alt="screen shot 2018-01-29 at 9 51 44 am" src="https://user-images.githubusercontent.com/28467245/35522657-2c71e842-04da-11e8-84f2-88b6c7b12b27.png">
